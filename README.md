@@ -1,7 +1,7 @@
 # GettingAndCleaningData_FinalProject
 Final Project submission for the course - Getting and Cleaning Data
 ==================================================================
-Tushar Ganguli.
+Author: Tushar Ganguli.
 ==================================================================
 
 The intent of this project was to follow the guidelines and end up with a set of tidy data.
