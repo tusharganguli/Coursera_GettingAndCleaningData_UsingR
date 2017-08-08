@@ -22,5 +22,6 @@ The dataset includes the following files:
 
 - 'averageData.txt': Final output after following step 5 as mentioned above.
 
-- 'run_analysis.R': Main script file for running the analysis.
+- 'run_analysis.R': Main script file for running the analysis. THe script file assumes that the data has been unzipped and the 
+  working directory has been set inside the unzipped folder. That is the working directory contains the folder 'UCI HAR Dataset'.
 
