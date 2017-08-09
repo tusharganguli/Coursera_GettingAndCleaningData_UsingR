@@ -1,14 +1,12 @@
-Final Project submission for the course - Getting and Cleaning Data
-==================================================================
-Author: Tushar Ganguli.
+# Details of data design
 ==================================================================
 
 The original data was partitioned into training data (70%) and test data (30%). The data has been merged together as per the problem statement. 
 
-# Variables in the data set not contained in the tidy data:
+## Variables in the data set not contained in the tidy data:
 All variables which do not represent mean or standard deviation have been excluded.
 
-# Variables contained in the tidy data:
+## Variables contained in the tidy data:
 The final tidy data set contains the following variables:
 
 1. Subject :  User index who performed the activities.
@@ -101,10 +99,10 @@ The final data set contains the average of each variable for each activity and e
 80. frequencyBasedBodyGyroMagStandardDeviation             
 81. frequencyBasedBodyGyroJerkMagStandardDeviation
 
-Summary choices:
+## Summary choices:
 The final data set contains a tidy data set with each subject grouped by each activity to calculate the average of all the above mentioned variables. 
 
-Experimental study design:
+## Experimental study design:
 The following steps were followed for data collection:
 1. Retrieve the subject,activities performed and feature variables from the test and train data sets.
 2. Merge the test and train data sets for each of the three data sets.
