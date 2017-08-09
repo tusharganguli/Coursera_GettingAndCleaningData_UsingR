@@ -16,7 +16,7 @@ rm(list=ls())
 library(dplyr)
 
 # set the path to the project directory
-setwd("F:/online courses/coursera/DataScience-JohnHopkins/3 - Getting and Cleaning Data/project/getdata%2Fprojectfiles%2FUCI HAR Dataset/")             
+#setwd("F:/online courses/coursera/DataScience-JohnHopkins/3 - Getting and Cleaning Data/project/getdata%2Fprojectfiles%2FUCI HAR Dataset/")             
 
 # read the subject of each individual from subject_(train/test).txt
 subject_train <- read.table("UCI HAR Dataset/train/subject_train.txt")
